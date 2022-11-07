@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>140</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>_s1: Student_
+--
+vorname: Max
+nachname: Mustermann
+sozialnr: 123456
+gebdat: 01.01.2000
+martrikelnr: 789
+studienrichtung: PIT
+zulassungsdatum: 01.01.2020
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>300</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>_s2: Student_
+--
+vorname: Micheel
+nachname: Mustermann
+sozialnr: 456789
+gebdat: 01.01.2002
+martrikelnr: 456
+studienrichtung: PIT
+zulassungsdatum: 01.01.2020
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>490</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>_l1: Lehrer_
+--
+vorname: Franz
+nachname: Test
+sozialnr: 852369
+gebdat: 05.05.1955
+personalnr: 753
+einstellungsdatum: 01.09.2010
+gehalt: 3000
+vorstand: ja
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>490</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>_l1: Lehrer_
+--
+vorname: Monika
+nachname: Gruber
+sozialnr: 951753
+gebdat: 22.02.1985
+personalnr: 159
+einstellungsdatum: 01.09.2007
+gehalt: 2800
+vorstand: nein
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>180</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>_i1: Institut_
+--
+nummer: 456
+namen: testinstitut
+anschrift: a1
+strasse: "Testweg"
+nr: 1
+plz: 1234
+ort: "Musterort"
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>290</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_lv2: Lehrveranstalltung_
+--
+semester: 2
+namen: Buchhaltung
+nummer: 789
+stundenanzahl: 30
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>140</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_lv1: Lehrveranstalltung_
+--
+semester: 3
+namen: Programmieren
+nummer: 123
+stundenanzahl: 45
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>320</y>
+      <w>30</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>320</y>
+      <w>160</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>310</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;150.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>230</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;50.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>240</y>
+      <w>530</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;260.0;510.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>390</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;100.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>140</y>
+      <w>620</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;30.0;600.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>370</y>
+      <w>610</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;590.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>490</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_ab1: abteilung_
+--
+institut: i1
+.
+.
+.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>320</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>660</y>
+      <w>1190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Klassendiagramm
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>0</y>
+      <w>1190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Objektdiagramm
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>720</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>*Student*
+--
+-vorname: String
+-nachname: String
+-sozialnr: int
+-gebdat: String
+-martrikelnr: int
+-studienrichtung: String
+-zulassungsdatum: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>1110</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>*Lehrer*
+--
+-vorname: String
+-nachname: String
+-sozialnr: int
+-gebdat: String
+-personalnr: int
+-einstellungsdatum: String
+-gehalt: int
+-vorstand: boolean
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>840</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>*Institut*
+--
+-nummer: int
+-name: String
++geta1():String
+-strasse: String
+-nr: int
+-plz: int
+-ort: String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>790</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>*Lehrveranstalltung*
+--
+-semester: int
+-namen: String
+-nummer: int
+-stundenzahl: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>1050</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*Abteilung*
+--
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>980</y>
+      <w>60</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-
+hat&gt;
+m1=1
+m2=0..n
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>910</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+hat&gt;
+m1=1
+m2=0..n
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>970</y>
+      <w>220</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=-
+leitet&gt;
+m1=1..n
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;220.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>780</y>
+      <w>520</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-
+belegt&gt;
+m1=3..n
+m2=0..n
+</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>980</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+hat&gt;
+m1=1
+m2=0..n
+</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>710</y>
+      <w>480</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Unteregrenze immer 0 außer es steht in der Angabe zB 0..n</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
