@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>500</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Besatzung
+--
+-funktion: Funktion
+--
++machtAusbildung(): void
++getfunktion(): Funktion</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>0</y>
+      <w>310</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Segelschiff
+--
+-name: String, unique
+-anzMasten: int {readOnly}, min(1),max(4)
+-maxGesamtsegelflaeche {readOnly}, max(300)
+--
++getName(): String
++addPerson(): void
++getPersonList(): ArrayList&lt;Person&gt;
++istSeeKlar(): boolean
++statistik(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>260</y>
+      <w>340</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Personen
+--
+-name: String {readOnly}
+-personID: int {readOnly}
+-personIDZaehler = 10001: static int
+-segelschiffListVergangenheit: ArrayList&lt;Segelschiff&gt;
+--
++anheuern(): void
++verlassen(): void
++checkAufschiff(): Segelschiff
++checkOffizier(): boolean
++getNamePerson(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>500</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Offiziere
+--
+-rang: Rang
+-hatPatent: boolean
+--
++machtPatent(): void
++getRang(): Rang
++getPatentStatus(): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>720</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+Rang
+--
+MASTER
+LIEUTNANT
+COMMANDER
+CAPTAIN
+COMMODORE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>720</y>
+      <w>220</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+Funktion
+--
+MATROSE (3)
+ZIMMERMANN (4)
+SCHMIED (4)
+SMUTJIE (5)
+STEUERMANN (6)
+--
+-gehalt: int
+--
++getGehalt(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>440</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>440</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>180</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
